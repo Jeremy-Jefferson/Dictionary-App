@@ -1,0 +1,15 @@
+h2.definition {
+    color: var(--background-brown);
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.background-results {
+     background: -webkit-linear-gradient(top left, #FFEFBA, #FFFFFF);
+  background: linear-gradient(to bottom right,  #FFEFBA, #FFFFFF);
+  background-attachment: fixed;
+    border-radius: 3rem;
+    padding: 2rem 1rem;
+   font-weight: 600;
+   color: var(--background-brown);
+}
