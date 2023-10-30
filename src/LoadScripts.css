@@ -1,0 +1,21 @@
+
+
+.AWAD_title {
+    font-size: 10pt;
+    color: silver;
+    font-weight: bold;
+  }
+  .AWAD_wordlink {
+    text-decoration: none;
+    color: green;
+  }
+  .AWAD_wordlink:hover {
+    text-decoration: underline;
+  }
+  .AWAD_quotation {
+    text-decoration: none;
+    color: green;
+  }
+  .AWAD_byline {
+    font-style: italic;
+  }

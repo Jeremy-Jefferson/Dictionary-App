@@ -82,7 +82,7 @@ export default function Search(props) {
                         <div className="col-6 background-header padding-container">
                           <div className="row ">
                             <div className="col-4 white-color" align="center">
-                              <a href="https://www.instagram.com/mili.codes/?hl=en">
+                              <a href="https://www.instagram.com/jeremyejefferson/">
                                 <img
                                   className="logo hvr-grow"
                                   src={logo}
@@ -93,16 +93,16 @@ export default function Search(props) {
                             <div className="col-6 white-color background-header">
                               <div className="background-link">
                                 <a
-                                  href="https://github.com/milicodes/dictionary-react-app"
+                                  href="https://github.com/jeremy-jefferson/Dictionary-App"
                                   className=" mb-1"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
-                                  Open-sourced
+                                  CREATED
                                 </a>
                               </div>{" "}
                               {""}
-                              by Mili.
+                              by Jeremy.
                               <p className=" mb-1">Hosted by Netlify</p>
                             </div>
                           </div>
@@ -165,15 +165,15 @@ export default function Search(props) {
                           <p className=" mb-1 mobile-header-size">
                             <div className="background-link">
                               <a
-                                href="https://github.com/milicodes/dictionary-react-app"
+                                href="https://github.com/jeremy-jefferson/Dictionary-App"
                                 className=" mb-1"
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                Open-sourced
+                                CREATED
                               </a>
                             </div>{" "}
-                            {""} by Mili.
+                            {""} by Jeremy.
                           </p>
                           <p className=" mb-1 mobile-header-size">
                             Hosted by Netlify
