@@ -1,12 +1,11 @@
 import React from "react";
-import './App.css';
-import Search from './Search';
-
+import "./App.css";
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <Search defaultKeyword="food" />
+      <Search defaultKeyword="revenge" />
       <div className="container">
         <div className="row">
           <div className="col-12 squares">

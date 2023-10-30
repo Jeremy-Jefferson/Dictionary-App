@@ -1,10 +1,10 @@
 :root {
   --space-in-between: 2rem 0 0 0;
   --padding-sections: 1rem;
-  --background-brown: #440000;
+  --background-brown: #373737;
   --font-color-white: #ffffff;
-  --yellow: #eebb33;
-  --light-yellow: #ffe292;
+  --aqua:#05fed9;
+  --plum:#39005d;
 }
 
 p.description {
@@ -47,7 +47,7 @@ div.search-bar {
 }
 
 .btn:hover {
-  background-color: #cc005c;
+  background-color: #ff0073;
   color: var(--font-color-white);
 }
 
@@ -94,14 +94,14 @@ div.search-bar {
 }
 
 .background-yellow {
-  background: -webkit-linear-gradient(top left, #ffd000e8 10%, #ffa751);
-  background: linear-gradient(to bottom right, #ffd000f1 10%, #ffa751);
+  background: -webkit-linear-gradient(top left, #05fed9 10%, #623cfc);
+  background: linear-gradient(to bottom right, #05fed9 10%, #623cfc);
   background-attachment: fixed;
 }
 
 .background-header {
-  background: -webkit-linear-gradient(top left, #fbd786 0%, #ffa751 100%);
-  background: linear-gradient(to bottom right, #fbd786 0%, #ffa751 100%);
+  background: -webkit-linear-gradient(top left, #05fed9 0%, #623cfc 100%);
+  background: linear-gradient(to bottom right, #05fed9 0%, #623cfc 100%);
   background-attachment: fixed;
   border-radius: 1rem;
   font-weight: 700;
