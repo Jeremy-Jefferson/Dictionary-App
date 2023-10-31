@@ -38,14 +38,14 @@ export default function Search(props) {
     // Pexels Url + Call
 
     let pexelsApiKey =
-      "563492ad6f917000010000017139843c0ff54232a308ef55d1da89ba";
+      "CDTpYe8FTwfnFVEaOBifyCVBW12tFtTvaeiyT1aYepGnaKv2cmMjiox7";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     // axios call to the Pexels photos API
     axios.get(pexelsApiUrl, { headers }).then(handlePexelsResponse);
 
     let pexelsPhoneApiKey =
-      "563492ad6f917000010000017139843c0ff54232a308ef55d1da89ba";
+      "CDTpYe8FTwfnFVEaOBifyCVBW12tFtTvaeiyT1aYepGnaKv2cmMjiox7";
     let pexelsPhoneApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headersPhone = { Authorization: `Bearer ${pexelsPhoneApiKey}` };
     // axios call to the Pexels photos API

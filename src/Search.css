@@ -3,7 +3,7 @@
   --padding-sections: 1rem;
   --background-brown: #373737;
   --font-color-white: #ffffff;
-  --aqua: #05fed9;
+  --aqua: #00edca;
   --plum: #39005d;
 }
 
@@ -94,14 +94,15 @@ div.search-bar {
 }
 
 .background-yellow {
-  background: -webkit-linear-gradient(top left, #05fed9 10%, #623cfc);
-  background: linear-gradient(to bottom right, #05fed9 10%, #623cfc);
+  background: -webkit-linear-gradient(top, #00edca 25%, #623cfc);
+  background: linear-gradient(to bottom, #00edca 25%, #623cfc);
   background-attachment: fixed;
+  padding-bottom: 2rem;
 }
 
 .background-header {
-  background: -webkit-linear-gradient(top left, #05fed9 0%, #623cfc 100%);
-  background: linear-gradient(to bottom right, #05fed9 0%, #623cfc 100%);
+  background: -webkit-linear-gradient(top, #00edca 25%, #623cfc 100%);
+  background: linear-gradient(to bottom, #00edca 25%, #623cfc 100%);
   background-attachment: fixed;
   border-radius: 1rem;
   font-weight: 700;
