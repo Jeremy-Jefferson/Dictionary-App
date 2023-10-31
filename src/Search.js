@@ -30,28 +30,18 @@ export default function Search(props) {
 
   function search() {
     // documentation https://dictionaryapi.dev/
-
     let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     // axios call to the dictionary API
     axios.get(apiURL).then(handleDictionaryResponse);
 
     // Pexels Url + Call
-
-    let pexelsApiKey =
-      "CDTpYe8FTwfnFVEaOBifyCVBW12tFtTvaeiyT1aYepGnaKv2cmMjiox7";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
-    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    let pexelsApiUrl = `/v1/search?query=${keyword}&per_page=6`;
     // axios call to the Pexels photos API
-    axios.get(pexelsApiUrl, { headers }).then(handlePexelsResponse);
+    axios.get(pexelsApiUrl).then(handlePexelsResponse);
 
-    let pexelsPhoneApiKey =
-      "CDTpYe8FTwfnFVEaOBifyCVBW12tFtTvaeiyT1aYepGnaKv2cmMjiox7";
-    let pexelsPhoneApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
-    let headersPhone = { Authorization: `Bearer ${pexelsPhoneApiKey}` };
+    let pexelsPhoneApiUrl = `/v1/search?query=${keyword}&per_page=3`;
     // axios call to the Pexels photos API
-    axios
-      .get(pexelsPhoneApiUrl, { headersPhone })
-      .then(handlePexelsPhoneResponse);
+    axios.get(pexelsPhoneApiUrl).then(handlePexelsPhoneResponse);
   }
 
   function handleSubmit(event) {

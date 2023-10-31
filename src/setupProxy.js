@@ -4,8 +4,11 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:3001',
+      target: 'https://api.pexels.com',
       changeOrigin: true,
+      headers: {
+        Authorization: 'CDTpYe8FTwfnFVEaOBifyCVBW12tFtTvaeiyT1aYepGnaKv2cmMjiox7',
+      },
     })
   );
 };
