@@ -105,7 +105,7 @@ export default function Search(props) {
                               </div>{" "}
                               {""}
                               by Jeremy.
-                              <p className=" mb-1">Hosted by Netlify</p>
+                              <p className=" mb-1">Hosted by Vercel</p>
                             </div>
                           </div>
                         </div>
@@ -178,7 +178,7 @@ export default function Search(props) {
                             {""} by Jeremy.
                           </p>
                           <p className=" mb-1 mobile-header-size">
-                            Hosted by Netlify
+                            Hosted by Vercel
                           </p>
                         </div>
                       </div>
