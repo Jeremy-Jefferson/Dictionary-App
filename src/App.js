@@ -4,7 +4,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <Search defaultKeyword="respect" />
+      <Search defaultKeyword="vagrant" />
       <div className="container">
         <div className="row">
           <div className="col-12 squares">
