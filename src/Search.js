@@ -3,7 +3,7 @@ import "./Search.css";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
-import logo from './logo.png';
+import logo from "./logo.png";
 import PhotosMobile from "./PhotosMobile";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -44,12 +44,14 @@ export default function Search(props) {
     // axios call to the Pexels photos API
     axios.get(pexelsApiUrl, { headers }).then(handlePexelsResponse);
 
-     let pexelsPhoneApiKey =
-       "563492ad6f917000010000017139843c0ff54232a308ef55d1da89ba";
-     let pexelsPhoneApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
-     let headersPhone = { Authorization: `Bearer ${pexelsPhoneApiKey}` };
-     // axios call to the Pexels photos API
-     axios.get(pexelsPhoneApiUrl, { headersPhone }).then(handlePexelsPhoneResponse);
+    let pexelsPhoneApiKey =
+      "563492ad6f917000010000017139843c0ff54232a308ef55d1da89ba";
+    let pexelsPhoneApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
+    let headersPhone = { Authorization: `Bearer ${pexelsPhoneApiKey}` };
+    // axios call to the Pexels photos API
+    axios
+      .get(pexelsPhoneApiUrl, { headersPhone })
+      .then(handlePexelsPhoneResponse);
   }
 
   function handleSubmit(event) {
@@ -268,4 +270,3 @@ export default function Search(props) {
     return "Loading...";
   }
 }
-// api pexels key 563492ad6f917000010000017139843c0ff54232a308ef55d1da89ba
